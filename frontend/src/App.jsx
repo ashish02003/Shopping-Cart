@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { ShoppingCart, X, Check, Package, Trash2, Plus, Minus, Loader } from 'lucide-react';
 
 // API Configuration - Change this to your backend URL
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = import.meta.env.VITE_API_URL;
 
 // API Functions
 const api = {
