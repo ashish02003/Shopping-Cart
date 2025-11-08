@@ -84,15 +84,25 @@ MONGODB_URI=mongodb://localhost:27017/vibe-commerce
 Expected output:
 
 Server running on port 5000
+
 MongoDB Connected
+
 Products seeded!
 
 Step 3: Frontend Setup
+
 cd ..
+
 cd frontend
+
 3.1 Install Frontend Dependencies
+
 npm install lucide-react
+
 npm install -D tailwindcss postcss autoprefixer
+
 npx tailwindcss init -p
+
 3.2 Start Frontend
+
 npm run dev
